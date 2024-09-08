@@ -19,6 +19,7 @@ class ImageHandler(FileSystemEventHandler):
                 # 例如，显示图片
                 image.show()
 
+
 def monitor_folder(folder_path):
     event_handler = ImageHandler(folder_path)
     observer = Observer()
