@@ -11,7 +11,7 @@ filename = "output.wav"
 p = pyaudio.PyAudio()  # Create an interface to PortAudio
 
 print('Recording')
-
+#wsdsb
 stream = p.open(format=sample_format,
                 channels=channels,
                 rate=fs,
